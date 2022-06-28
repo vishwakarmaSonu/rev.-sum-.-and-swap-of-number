@@ -1,0 +1,43 @@
+void  swaps(int& a,int &b){
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+}
+int main() {
+    std::cout << "swaping\n";
+    int aa = 3;
+    int bb=4;
+    cout<<aa<< " "<<bb<<endl;
+    
+    swaps(aa,bb);
+    cout<<aa<< " "<<bb<<endl;
+    cout<<" sum of  number\n";
+  
+    int h ;
+    cin>>h;
+    int sum = 0;
+    while(h>0){
+    int ss = h%10;
+    h = h/10;
+  
+    
+    
+    sum = sum+ss;
+    }
+    cout<<" sum :"<<sum;
+    cout<<endl<<"reverse of the number";
+    int hh ;
+    cin>> hh;
+    int rev=0;
+    while(hh>0){
+        rev = rev*10+hh%10;
+        hh = hh/10;
+        
+    }
+    cout<<" reverse of the number is :"<<rev;
+    
+    
+
+ 
+}
